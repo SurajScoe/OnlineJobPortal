@@ -1,0 +1,16 @@
+---To fin all employees
+select * from emp;
+
+----to find all employees with sal >= 2000 abd <= 4000
+select * from emp
+where sal>=2000 and <=4000;
+
+---to check the range the operator available is between...and
+select * from emp
+where sal between 2000 and 4000;
+
+
+--- to check multiple values in the same column use in operator
+select *
+from emp
+where deptno in (10,20);
