@@ -1,0 +1,27 @@
+import React, { useState } from "react";
+// import Navbar from "./Components/Navbar/Navbar";
+import StartupImage from "./Components/FP/StartupImage";
+import Signup from "./Components/Signup/Signup";
+import LandingPage from "./Components/LandingPage/LandingPage";
+
+function App() {
+  const [showStartupImage, setShowStartupImage] = useState(true);
+  const [showSignup, setShowSignup] = useState(false);
+
+  const handleStartupImageClick = () => {
+    setShowStartupImage(false);
+  };
+  const handleCloseSignup = () => {
+    setShowSignup(false);
+  };
+
+  return (
+    <div className="App">
+      {showStartupImage && <StartupImage onClick={handleStartupImageClick} />}
+      {showSignup && <Signup onClose={handleCloseSignup} />}
+      {!showStartupImage && !showSignup && <LandingPage />}
+    </div>
+  );
+}
+
+export default App;

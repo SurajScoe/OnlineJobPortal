@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black; 
+    padding: 10px; 
+    color:white; 
+}
+
+.copyright p { 
+    flex: 1;
+    text-align: center;
+} 
+

@@ -1,0 +1,15 @@
+.job-grid {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); /* Cards will have a minimum width of 18rem and take up available space equally */
+    gap: 20px; /* Gap between cards */
+  }
+
+.card{
+    border: 1px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    
+}

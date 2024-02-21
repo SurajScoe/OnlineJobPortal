@@ -1,0 +1,46 @@
+nav.bordered {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(6, 58, 246);
+  padding: 10px; 
+  border: 2px solid rgb(0, 0, 0);
+  opacity: 100%;
+}
+
+#a{
+  text-decoration: none;
+  color: rgb(253, 253, 253);
+  margin-right: 10px; 
+}
+
+.logo {
+  color: rgb(253, 253, 253);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 2rem;
+}
+
+a {
+  color: rgb(253, 252, 252);
+  text-decoration: none;
+}
+
+.auth {
+  display: flex;
+  align-items: center;
+}
+
+.auth a {
+  margin-left: 1rem;
+}

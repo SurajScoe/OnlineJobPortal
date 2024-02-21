@@ -1,0 +1,52 @@
+/* JobSeekerDashboard.css */
+.dashboard-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for a subtle effect */
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    display: block; /* Make the links fill the container */
+    padding: 10px; /* Add padding for better clickability */
+  }
+  
+  .sidebar a:hover {
+    color: #3498db;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+  }
+  
+  .card {
+    flex: 1;
+  }
+
+  .section{
+    padding: 2cm;
+  }
