@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>JobSphere_backend</artifactId>
+	<artifactId>OnlineJobPortal_backend</artifactId>
 	<version>0.0.1</version>
-	<name>JobSphere_backend</name>
+	<name>OnlineJobPortal_backend</name>
 	<description>Spring security using JWT based authentication using JPA based DB based user details service</description>
 	<properties>
 		<java.version>11</java.version>
